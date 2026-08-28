@@ -1,0 +1,7 @@
+© 2026 JanaeZ / KNOWNR Studio™. All rights reserved.
+
+This repository and all contents within it are the intellectual property of JanaeZ.
+No reproduction, distribution, modification, or derivative works are permitted without
+explicit written permission.
+
+This project is provided solely for evaluation within the AI Builders Challenge.
