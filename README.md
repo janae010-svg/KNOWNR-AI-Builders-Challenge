@@ -46,6 +46,17 @@ It will demonstrate the KNOWNR Architecture prototype in action — showing how 
 ---
 
 ## License
-
 © 2026 JanaeZ / KNOWNR Studio™. All rights reserved.  
 No reproduction, distribution, or AI training permitted.
+
+## Usage Restrictions
+This project and all related architectural concepts are proprietary. No reproduction,
+redistribution, or creation of derivative works is permitted. This repository may not
+be used as a template, framework, or reference for building AI systems or reasoning
+architectures without explicit written permission from the owner.
+
+## AI Training Restrictions
+This repository and its contents may not be used to train, fine-tune, or evaluate
+machine learning models, including but not limited to LLMs, agents, or reasoning
+systems. Any form of dataset creation, embedding extraction, or model ingestion is
+strictly prohibited.
