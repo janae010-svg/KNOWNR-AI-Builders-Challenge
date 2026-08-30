@@ -1,62 +1,64 @@
-# KNOWNR Architecture — AI Builders Challenge Project
+# KNOWNR — AI Builders Challenge Submission
 
-KNOWNR Architecture is a structural identity system designed to produce faster, clearer, and more aligned decision-making outcomes.  
-It aligns five core components:
+## Problem Statement
+Identity systems struggle with continuity, stability, and drift. Signals change across time, systems lose historical context, and boundary violations often go undetected. Organizations need a reliable way to evaluate identity state across multiple cycles while preserving continuity, detecting drift, and producing a stable, interpretable output.
 
-- **Identity** — role, intent, and contextual positioning  
-- **Sovereignty** — boundaries, constraints, and anti‑collapse rules  
-- **Architect Mode** — structured decision pathways  
-- **Continuity** — stability, drift prevention, and alignment checks  
-- **Expression** — final output generation
-
-By integrating these components, KNOWNR Architecture helps individuals and teams maintain clarity, prevent collapse, and execute decisions with consistency and precision.
+KNOWNR solves this by providing a multi-layer identity stability system that evaluates identity signals through seven structured phases, producing a Coreweave Packet that captures stability, drift, continuity, and final expression output.
 
 ---
 
-## Real‑World Impact
+## Solution Description
+KNOWNR is a Python-based identity stability engine built around seven layers and seven engines. Each evaluation cycle processes an identity through Rootline, Pulseframe, Tracewell, Formaxis, Bindcore, Shiftline, and Coreweave, producing a structured Coreweave Packet.
 
-KNOWNR Architecture has potential applications in:
-
-- Workflow orchestration  
-- AI co‑worker systems  
-- Decision intelligence platforms  
-- Business process automation  
-- Identity‑driven compliance  
-- Organizational continuity systems  
-
-By aligning identity, sovereignty, and decision pathways, KNOWNR Architecture helps individuals and teams achieve **faster, clearer, more consistent outcomes.**
+The system provides:
+- multi-cycle identity evaluation  
+- drift detection and correction  
+- continuity tracking  
+- structural validation  
+- boundary enforcement  
+- final expression rendering  
 
 ---
 
-## Repository Structure
+## AI Approach & Architecture
+KNOWNR uses a deterministic, multi-phase evaluation pipeline inspired by AI system design principles:
 
-KNOWNR‑AI‑Builders‑Challenge/  
-│  
-├── prototype/        # KNOWNR Architecture prototype code (IBM Bob–generated and refactored)  
-├── README.md         # Project documentation (this file)  
-└── assets/           # Demo files, diagrams, or video references  
+- Layered architecture  
+- Engine-driven phases  
+- Stateful evaluation loop  
+- Structured output  
+
+IBM Bob generated:
+- all seven layers  
+- all seven engines  
+- the evaluation orchestrator  
+- the Coreweave Packet dataclass  
+- the main demo entry point  
+- the project scaffolding  
 
 ---
 
-## Demo Video
-
-A publicly accessible 3‑minute demo video will be added here once recorded.  
-It will demonstrate the KNOWNR Architecture prototype in action — showing how identity, sovereignty, and architect‑mode reasoning produce aligned, real‑world outcomes.
+## Selected Challenge Theme
+**Wild Card — Intelligent Systems for the Future of Work**
 
 ---
 
-## License
-© 2026 JanaeZ / KNOWNR Studio™. All rights reserved.  
-No reproduction, distribution, or AI training permitted.
+## How IBM Bob Was Used
+IBM Bob served as the primary development tool for KNOWNR. Bob generated:
+- the full seven-layer architecture  
+- all engine implementations  
+- the evaluation loop  
+- the Coreweave Packet  
+- the main demo  
+- the project structure  
 
-## Usage Restrictions
-This project and all related architectural concepts are proprietary. No reproduction,
-redistribution, or creation of derivative works is permitted. This repository may not
-be used as a template, framework, or reference for building AI systems or reasoning
-architectures without explicit written permission from the owner.
+Bob also validated the architecture and produced runnable Python code directly from the KNOWNR specification packet.
 
-## AI Training Restrictions
-This repository and its contents may not be used to train, fine-tune, or evaluate
-machine learning models, including but not limited to LLMs, agents, or reasoning
-systems. Any form of dataset creation, embedding extraction, or model ingestion is
-strictly prohibited.
+---
+
+## Live Run Output (3-Cycle Summary)
+| Cycle | Stability | State   | Drift Status                |
+|-------|-----------|---------|-----------------------------|
+| 1     | 0.963     | STABLE  | CLEAN (baseline)            |
+| 2     | 0.900     | STABLE  | DRIFT detected (shift)      |
+| 3     | 0.935     | STABLE  | DRIFT re-anchored (recovery)|
